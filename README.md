@@ -36,7 +36,8 @@ To get a local copy of this project up and running, follow these steps.
    ```bash
    git clone https://github.com/agrawal404/Akshat_Agrawal_Placement_portfolio.git
    cd Port_Temp
-   Edit the Template
+
+Edit the Template
 
 2. **Open the index.html file in your preferred code editor.**
 Update the HTML fields with your personal details as directed by the comments in the code.
@@ -47,12 +48,15 @@ Push Changes to a New GitHub Repository
 Push the customized code to your new repository:
 bash
 Copy code
-```git init```
-```git add .```
-```git commit -m "Initial commit - Personalized portfolio website"```
-```git remote add origin https://github.com/your-username/my-portfolio.git```
-```git branch -M main```
-```git push -u origin main```
+
+```bash
+git init
+git add .
+git commit -m "Initial commit - Personalized portfolio website"
+git remote add origin https://github.com/your-username/my-portfolio.git
+git branch -M main
+git push -u origin main
+
 Deployment
 Hosting on GitHub Pages
 Enable GitHub Pages

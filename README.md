@@ -49,14 +49,14 @@ Push the customized code to your new repository:
 bash
 Copy code
 
-```bash
-git init
-git add .
-git commit -m "Initial commit - Personalized portfolio website"
-git remote add origin https://github.com/your-username/my-portfolio.git
-git branch -M main
-git push -u origin main
-
+bash
+```git init```<br>
+```git add .```<br>
+```git commit -m "Initial commit - Personalized portfolio website"```<br>
+```git remote add origin https://github.com/your-username/my-portfolio.git```<br>
+```git branch -M main```<br>
+```git push -u origin main```<br>
+<br>
 Deployment
 Hosting on GitHub Pages
 Enable GitHub Pages

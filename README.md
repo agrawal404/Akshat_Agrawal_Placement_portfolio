@@ -38,21 +38,21 @@ To get a local copy of this project up and running, follow these steps.
    cd Port_Temp
    Edit the Template
 
-Open the index.html file in your preferred code editor.
+2. **Open the index.html file in your preferred code editor.**
 Update the HTML fields with your personal details as directed by the comments in the code.
 Do not modify the tags, styles.css, or script.js files unless necessary.
 Push Changes to a New GitHub Repository
 
-Create a new repository on your GitHub account (e.g., my-portfolio).
+3. **Create a new repository on your GitHub account (e.g., my-portfolio).**
 Push the customized code to your new repository:
 bash
 Copy code
-git init
-git add .
-git commit -m "Initial commit - Personalized portfolio website"
-git remote add origin https://github.com/your-username/my-portfolio.git
-git branch -M main
-git push -u origin main
+```git init```
+```git add .```
+```git commit -m "Initial commit - Personalized portfolio website"```
+```git remote add origin https://github.com/your-username/my-portfolio.git```
+```git branch -M main```
+```git push -u origin main```
 Deployment
 Hosting on GitHub Pages
 Enable GitHub Pages
@@ -66,7 +66,7 @@ Access Your Portfolio
 
 After a few minutes, your site will be available at https://your-username.github.io/my-portfolio/.
 
-##USEAGE
+## USEAGE
 
 This portfolio website is designed to display your:
 
@@ -74,10 +74,10 @@ Projects: Highlight your key projects with descriptions, tools used, and demo li
 Certifications: Showcase relevant certifications and courses you have completed.
 Skills: Present your technical and soft skills in a structured manner.
 
-##CONTRIBUTING
+## CONTRIBUTING
 
 Contributions are welcome! If you have any suggestions for improvements, feel free to open an issue or submit a pull request.
 
-##LICENSE
+## LICENSE
 
 This project is licensed under the MIT License - see the LICENSE file for details.

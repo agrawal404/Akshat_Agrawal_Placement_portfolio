@@ -1,0 +1,307 @@
+<!-- Go to this github repo  https://github.com/ashiksanyo10/Port_Temp.git and clone it to your local machine -->
+<!-- Open the local copy of code and edit the templete -->
+
+
+<!-- Dont alter any tags, fill in you information on required field only and dont alter style.css and javascript file-->
+<!-- once editing the templete, Create a github repo and push the code-->
+<!-- you can host the website on gitpages or netlify  -->
+<!---->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Akshat Agrawal</title>    <!-- Change it your name  --> .
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="" class="link"  
+          >{AA}. <!--insert your initials here --></a
+        >
+      </h3> <!--use the linkedIn or any link in above href-->
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Internship">Certifications</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <!--   <li class="nav__list-item">
+            <a class="link link--nav" href="#Exp">Experience</a>
+          </li>-->
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Akshat Agrawal.</span></h1>
+        <h2 class="about__role">Aspiring Cloud Architect</h2>
+        <p class="about__desc"> <!-- Edit the About make sure you add your degree!-->
+         Aspiring tech professional seeking to leverage skills in cloud computing, Python, and C to build impactful solutions that improve human lives and the environment.
+        </p> <!-- about you -->
+        <br>
+        <a href="mailto:agrawalakshat228@gmail.com">Mail: agrawalakshat228@gmail.com </a><p> Contact: +91 93044 14503</p>  <!--Change it to your mail id and contact no-->
+      </br>
+      
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1Af4S1LF3Ujyxh986KIEs6rjqXDBq8Yw_/view?usp=drive_link" target="_blank"  > <!-- drive link for resume-->
+            <span class="btn btn--outline">Resume</span> 
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/a03-akshat-agrawal/" target="_blank"  
+            aria-label="linkedin"
+            class="link link--icon"
+          > 
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a> <!-- LinledIn profile Link-->
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>UI/UX Design for Intra-University Sports Day</h3> <!--Peoject Title -->
+            <p class="project__description">
+              Designed user-friendly interfaces in Figma for an intra-university sports day event to streamline event participation and information access, creating wireframes, prototypes, and final designs.
+            </p> <!--Project description-->
+            <ul class="project__stack">
+              <li class="project__stack-item">Figma</li>
+            </ul>
+
+    
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            > <!--Project demo or git link-->
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>UI/UX Design for Research Paper Conference Platform</h3>
+            <p class="project__description">
+              Created UI/UX for a Springer-sponsored conference platform, facilitating seamless submission, review, and presentation processes for researchers and participants.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Figma</li>
+            </ul>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Vector Vibe</h3>
+            <p class="project__description">
+              Developing to help users effortlessly resize images for social media platforms, ensuring correct aspect ratios using APIs like Gemini, Llama3, and MidJourney. Implemented in Python and deployed on AWS for scalability.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">AWS</li>
+              <li class="project__stack-item">LLMs</li>
+            </ul>
+
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Campus Chirp</h3>
+            <p class="project__description">
+              Developed an Alexa-powered assistant to provide easy access to university facility information, enhancing campus navigation and user experience
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">AWS Lambda</li>
+              <li class="project__stack-item">Alexa Skill API</li>
+            </ul>
+
+            
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="Internship" class="section Internship" id="Internship">
+        <h2 class="section__title">Certifications</h2>
+
+      <div class="project">
+        <h3>AWS Academy Cloud Foundations</h3>
+        <p class="project__description">
+          Gained foundational knowledge in AWS cloud services and architecture.
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">EC2</li>
+          <li class="project__stack-item">Auto Scaling</li>
+          <li class="project__stack-item">Lambda</li>
+          <li class="project__stack-item">IAM</li>
+        </ul>
+
+        
+        <a
+          href="https://example.com"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+      <div class="project">
+        <h3>Machine Learning Using Python - SimpliLearn</h3>
+        <p class="project__description">
+          Developed skills in machine learning algorithms and Python programming for data analysis.
+        <ul class="project__stack">
+          <li class="project__stack-item">Python</li>
+          <li class="project__stack-item">Machine Learning</li>
+        </ul>
+
+       
+        </a>
+        <a
+          href="https://example.com"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+      <div class="project">
+        <h3>Speaking Effectively - SWAYAM NPTEL</h3>
+        <p class="project__description">
+          Enhanced verbal communication skills.
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">Presentations</li>
+          <li class="project__stack-item">Public Speaking</li>
+          
+        </ul>
+
+        <a
+          href="https://example.com"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+      <div class="project">
+        <h3>AI with ML and DL Workshop, IIT Hyderabad, 2024</h3>
+        <p class="project__description">
+          Explored advanced concepts in artificial intelligence, machine learning, and deep learning
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">ML</li>
+          <li class="project__stack-item">AI</li>
+          <li class="project__stack-item">DL</li>
+          <li class="project__stack-item">Neural Networks</li>
+          
+        </ul>
+        <a
+          href="https://example.com"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+ <!-- duplicate the above section and you can change it to paper or experience-->
+
+      
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Python</li>                        <!--You can fill in the elective course and you can remove extras-->
+          <li class="skills__list-item btn btn--plain">C</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">NoSQL</li>
+          <li class="skills__list-item btn btn--plain">AWS</li>
+          <li class="skills__list-item btn btn--plain">Machine Learning</li>
+          <li class="skills__list-item btn btn--plain">Figma</li>
+          <li class="skills__list-item btn btn--plain">Photoshop</li>
+          <li class="skills__list-item btn btn--plain">Leadership</li>
+          <li class="skills__list-item btn btn--plain">Collaboration</li>
+          <li class="skills__list-item btn btn--plain">Analytical Thinking </li>
+          <li class="skills__list-item btn btn--plain">Verbal Communication</li>
+          <li class="skills__list-item btn btn--plain">Problem Solving</li>
+        </ul>
+      </section>
+
+    <footer class="footer">
+      <a
+        href="" 
+        class="link footer__link"
+      >  
+        Created By Akshat Agrawal! <!-- edit it to your name -->
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
